@@ -1,0 +1,22 @@
+Keywords:
+
+* public -> is access modifier used to controll visibility or accessibility of classes, fields, methods, and constructors.
+* class keyword -> decalares or defines a class in java
+* static -> 
+* void -> 
+* new -> 
+
+
+
+CLASS -> Is a blueprint or a template of creating objects, it defines attributes (fields) and behaviors (methods) that object of the class will have. A class serves as a template
+from which objects can be created. Class contains methods, constractors and fields or attributes.
+
+-Fields: Are variables that are declared within the class are represent data or the state of the of an object.
+
+-Constructors: Is a special type of method that is used for initializing the objects of a class. Constructors have the same name as the class and they dont return anything and they
+are not void methods. They are automatically called when a new object of the class is created using new keyword. We have default constructors and parameterized constructors.
+
+-Methods: Are blocks of code that perform specific tasks or operations within the class. They can have name, return type, parameters, access modifier. There are static methods, instance
+methods, overloading methods.
+
+

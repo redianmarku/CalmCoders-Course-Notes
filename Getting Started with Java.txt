@@ -1,14 +1,55 @@
-* What is Java -> Java is a programming language owned by Orcavle Corporation, built by James Gazolin. Was built as a competitor of Adobe Flash. Used to build and run many websserver applications.
-Java is object-oriented programming langueage. Designed to think about the problems that we want to write the and solve in the way of objects that contains data and behaviors. Helps to model objects
-that represent the concepts of a company.
+* What is Java -> Java is a programming language owned by Oracle Corporation, built by James Gazolin. Was built as a competitor of Adobe Flash. Used to build and run many websserver applications.
+Java is object-oriented programming language. Designed to think about the problems that we want to write the and solve in the way of objects that contains data and behaviors.
+Helps to model objects that represent the concepts of a company.
 
-
+* Object Oriented Programming -> Way of programming that we try to model the real world in form of objects to help us solve the problems.
 * JDK -> Java Developement Kit, is a software that allows to run java applications, it comes with tools like java runtime, debugger, compiler. 
-
-* JRE -> Java runtime environement is a software package that provides minimum requirements to run a java application. Debugger is a software tool used to solve check and solve errors in the program.
+* JRE -> Java runtime environement is a software package that provides minimum requirements to run a java application. Debugger is a software tool used to
+solve check and solve errors in the program.
 Java compiler (javac) is tool that comes with JDK that can compile or turn java source code .java into byte code .class that can run in a java virtual machine, JVM.
+* JVM -> Java Virtual Machine, is a computing machine that is able to run java programs. Its an intermidiary between java byte code .class and hardware/operating system.
+* IDE -> Integrated Developement Environment, is a software that computer programmers use for software developement. IDE provides code editors, debugger, compiler, version control, extension
+automation tools. Popular IDE for Java is IntelliJ.
+* byte code -> .class source code file that is executable by the java virtual machine
+* java source code -> .java code that is written by the programmer and can be compiled by javac compiler
+* Chocolatey -> CLI tool that help to install different packages and softwares 
+* PowerShell -> CLI program or tool that is used to interact with the computer through text-based commands. You can perform various tasks and actions, automate tasks and scripts and manage
+system configuration.
+* Terminal -> CLI (Command Line Interface) used to run commands, navigate file systems, perform system administration tasks. It gets text-based inputs and gives outputs.
+* Kernel -> Is a core component of the operation system that serves as a bridge between software application and computer hardware.
+* GitHub Gist -> Online Community that people can share code and help each others.
+* Shell -> is a command line interface program that interprets user commands and executes them in the operating system.
+* JShell -> Java Shell is REPL a tool introduced in Java 9 where programmer can run and experiment with different code snippets and get imidiate response.
+* REPL -> Read Eval Print Loop, is a interactive programming environement that allow users to run commands or code, evaluate them and immidiately get the result. It runs in a loop.
 
-*JVM -> Java Virtual Machine, is a computing machine that is able to run java programs. Its an intermidiary between java byte code .class and hardware/operating system.
+
+
+
+Structure of Java Project:
+* src -> folder that all our source code of java is saved.
+* out -> folder where java files are compiled into byte code .class files, they are saved in this folder after compilation
+* class -> java file
+* external libraries folder -> refers to the directory where IDE manages and stores extarnal dependences (JAR files) used by the java project.
+* JAR file -> Jave ARchive is a compressed file that is used to package Java classes and associated resourses (files, images, sounds, configurations) into 1 file.
+* .idea folder -> is a directory that is generated automatically by the IDE this folder stores configuration and setting and metadata.
+* directory -> also a folder is a container used to organize files and other directory in a hiearchial structure.
+* metadata -> is data that describes characteristics of another set of data.
+* package -> a mechanism of grouping and organizing classes and interfaces, making it easier to manage large scale java applicataion.
+* library -> is a collection of precompiled codes, functions, classes and resources that are designed to be re-used by other sofware.
+* framework -> a set of libraries, tools, components that provides a stuctured way to build and organize software applications.	Unlike libraries, frameworks provide a an infrascturcture
+and architecture for developing and building software applications.
+* boilerplate code -> are pieces of code that are typically same and we reuse them unchanged.
+
+
+
+
+Extra: 
+* pointer -> is a variable that holds the memory address where the data is located, instead of a directly storing data.
+* variable -> is a named storage loaction in computer memory that holds a value. It can change or not during the exectutation of the program.
+* memory address -> a unique identifier that is associated with a specific location in the memory, they are used to locate and access data in the memory
+* recursion -> a method in programming where the function calls itself in order to solve a problem, instead of iteration.
+* 
+
 
 
 

@@ -1,0 +1,6 @@
+Java shortcuts and IDE shortcuts:
+
+* psvm -> public static void main(String[] args){}
+* sout -> System.out.println("")
+* ALT + 1 -> Open/Closes side panel in IntelliJ
+* CTRL + SHIFT + f10 -> run main function in Java IntelliJ
