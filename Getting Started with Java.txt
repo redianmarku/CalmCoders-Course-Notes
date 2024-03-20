@@ -1,0 +1,14 @@
+* What is Java -> Java is a programming language owned by Orcavle Corporation, built by James Gazolin. Was built as a competitor of Adobe Flash. Used to build and run many websserver applications.
+Java is object-oriented programming langueage. Designed to think about the problems that we want to write the and solve in the way of objects that contains data and behaviors. Helps to model objects
+that represent the concepts of a company.
+
+
+* JDK -> Java Developement Kit, is a software that allows to run java applications, it comes with tools like java runtime, debugger, compiler. 
+
+* JRE -> Java runtime environement is a software package that provides minimum requirements to run a java application. Debugger is a software tool used to solve check and solve errors in the program.
+Java compiler (javac) is tool that comes with JDK that can compile or turn java source code .java into byte code .class that can run in a java virtual machine, JVM.
+
+*JVM -> Java Virtual Machine, is a computing machine that is able to run java programs. Its an intermidiary between java byte code .class and hardware/operating system.
+
+
+
