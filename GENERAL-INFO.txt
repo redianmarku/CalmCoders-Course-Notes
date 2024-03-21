@@ -1,0 +1,8 @@
+-A programming language -> is a set of instructions written in a hiearchial and logical way that can be compiled and executed by a machine or computer.
+
+-CPU -> processor of the computer is a hardware component that processes arithmetic and logical instructions that travel through buses using adresses in the memory of the computer.
+-Adresses -> is a reference of location in the memory of the computer about some data.
+-Pointer -> is a variable that stores the memory address.
+-Variable -> is a named reference of an address in the memory of the computer that we use to store some value. We can call it or initialize data using it.
+-CPU Registers -> are some high speed memory locations in the CPU of the computer that is used to store temporary data while CPU is manipulating instructions.
+-Buses -> communication system that transfers data between components of the computer.

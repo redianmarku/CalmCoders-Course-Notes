@@ -2,6 +2,9 @@
 Java is object-oriented programming language. Designed to think about the problems that we want to write the and solve in the way of objects that contains data and behaviors.
 Helps to model objects that represent the concepts of a company.
 
+A programming language is a set of instructions written in a hiearchial and logical way that can be compiled and executed by a machine or computer. 
+
+
 * Object Oriented Programming -> Way of programming that we try to model the real world in form of objects to help us solve the problems.
 * JDK -> Java Developement Kit, is a software that allows to run java applications, it comes with tools like java runtime, debugger, compiler. 
 * JRE -> Java runtime environement is a software package that provides minimum requirements to run a java application. Debugger is a software tool used to
@@ -24,7 +27,6 @@ system configuration.
 
 
 
-
 Structure of Java Project:
 * src -> folder that all our source code of java is saved.
 * out -> folder where java files are compiled into byte code .class files, they are saved in this folder after compilation
@@ -42,10 +44,9 @@ and architecture for developing and building software applications.
 
 
 
-
 Extra: 
 * pointer -> is a variable that holds the memory address where the data is located, instead of a directly storing data.
-* variable -> is a named storage loaction in computer memory that holds a value. It can change or not during the exectutation of the program.
+* variable -> is a named storage loaction in computer and can call the memory that holds a value. It can change or not during the exectutation of the program.
 * memory address -> a unique identifier that is associated with a specific location in the memory, they are used to locate and access data in the memory
 * recursion -> a method in programming where the function calls itself in order to solve a problem, instead of iteration.
 * 

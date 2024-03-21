@@ -1,15 +1,23 @@
 Keywords:
 
-* public -> is access modifier used to controll visibility or accessibility of classes, fields, methods, and constructors.
+* public -> is access modifier used to controll visibility or accessibility of classes, fields, methods, and constructors. Public keyword can make the classes accesiable 
+from outside of the package. 
+* private -> is an access modifier used to restrict visibility of a class member, field, method or nested class. Members declared as private are not accesiable from the outside
+the class. 
 * class keyword -> decalares or defines a class in java
-* static -> 
-* void -> 
-* new -> 
+* static -> used to declare a variable or method in the class which it only belongs to this class and not the instance of that class, we usually call it using directly from class
+* void -> used to indicate that a method is not going to return anything or any value
+* new -> used to instanciate a new object in the class, allocates memory for that object and returns reference of the object 
+* import -> used to make classes and interfaces available in the code without need to reference the full qualified name.
 
+Datatypes:
+String -> stores text in the variable 
 
 
 CLASS -> Is a blueprint or a template of creating objects, it defines attributes (fields) and behaviors (methods) that object of the class will have. A class serves as a template
 from which objects can be created. Class contains methods, constractors and fields or attributes.
+
+Class names should be capitalized start with capital letter, cant start with number or symbols.
 
 -Fields: Are variables that are declared within the class are represent data or the state of the of an object.
 
