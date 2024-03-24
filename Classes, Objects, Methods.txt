@@ -1,30 +1,56 @@
-Keywords:
-
-* public -> is access modifier used to controll visibility or accessibility of classes, fields, methods, and constructors. Public keyword can make the classes accesiable 
-from outside of the package. 
-* private -> is an access modifier used to restrict visibility of a class member, field, method or nested class. Members declared as private are not accesiable from the outside
-the class. 
-* class keyword -> decalares or defines a class in java
-* static -> used to declare a variable or method in the class which it only belongs to this class and not the instance of that class, we usually call it using directly from class
-* void -> used to indicate that a method is not going to return anything or any value
-* new -> used to instanciate a new object in the class, allocates memory for that object and returns reference of the object 
-* import -> used to make classes and interfaces available in the code without need to reference the full qualified name.
-
-Datatypes:
-String -> stores text in the variable 
+Java Keywords:
+    * public -> is access modifier used to controll visibility or accessibility of classes, fields, methods, and constructors. Public keyword can make the classes accesiable 
+    from outside of the package. 
+    * private -> is an access modifier used to restrict visibility of a class member, field, method or nested class. Members declared as private are not accesiable from the outside
+    the class. 
+    * class keyword -> decalares or defines a class in java
+    * static -> used to declare a variable or method in the class which it only belongs to this class and not the instance of that class, we usually call it using directly from class
+    * void -> used to indicate that a method is not going to return anything or any value
+    * new -> used to instanciate a new object in the class, allocates memory for that object and returns reference of the object 
+    * import -> used to make classes and interfaces available in the code without need to reference the full qualified name.
 
 
-CLASS -> Is a blueprint or a template of creating objects, it defines attributes (fields) and behaviors (methods) that object of the class will have. A class serves as a template
-from which objects can be created. Class contains methods, constractors and fields or attributes.
+Java Main Stucture:
+    Every time we run a java code JVM looks for the main method in our code. The main method has always the same name and it is reserved by the langugae 
+    The method is always public and static and it takes as parameter an array of strings called args. Args are the text argumets that we put after the run command
+    in the console, so every argument that we pass while runing java code in the console will be saved on that array.
 
-Class names should be capitalized start with capital letter, cant start with number or symbols.
 
--Fields: Are variables that are declared within the class are represent data or the state of the of an object.
+Datatypes and variables:
+    1. Primitive Variables (variables that can store simple, single value they are not objects and dont belong to any class)
+        -byte -> 8-bit signed integer, can get value: -128 to 127
+        -short-> 16-bit signed integer, can get value: -32768 to 32767
+        -int-> 32-bit signed integer, can get value -2^31 to 2^31-1
+        -long-> 64-bit signed integer, -2^63 to 2^63-1
+        -float-> 32-bit signed floating-point number 
+        -double-> 64-bit signed floating-point number
+        -char-> 16-bit unicode character
+        -boolean-> usually 1 byte, Represent true or false value
+    2. Object reference variables 
+        -stores the reference address of a object created from a class
+        Ex. String -> is a class in java used to store a sequence of characters
+    3. Array reference variables
+        -stores memory address of an array object in java 
+    4. Interface reference variables 
 
--Constructors: Is a special type of method that is used for initializing the objects of a class. Constructors have the same name as the class and they dont return anything and they
-are not void methods. They are automatically called when a new object of the class is created using new keyword. We have default constructors and parameterized constructors.
+    5. Enum reference variables
+    6. Generic reference variables
 
--Methods: Are blocks of code that perform specific tasks or operations within the class. They can have name, return type, parameters, access modifier. There are static methods, instance
-methods, overloading methods.
+
+
+Java CLASS (Object Oriented):
+    Is a blueprint or a template of creating objects, it defines attributes (fields) and behaviors (methods) that object of the class will have. A class serves as a template
+    from which objects can be created. Class contains methods, constractors and fields or attributes.Class names should be capitalized start with capital letter, cant start with number or symbols.
+
+    -Fields:
+        Are variables that are declared within the class are represent data or the state of the of an object.
+
+    -Constructors: 
+        Is a special type of method that is used for initializing the objects of a class. Constructors have the same name as the class and they dont return anything and they
+        are not void methods. They are automatically called when a new object of the class is created using 'new' keyword. We have default constructors and parameterized constructors.
+
+    -Methods:
+        Are blocks of code that perform specific tasks or operations within the class. They can have name, return type, parameters, access modifier. There are static methods, instance
+        methods, overloading methods.
 
 

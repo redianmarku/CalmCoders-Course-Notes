@@ -13,7 +13,7 @@ Java compiler (javac) is tool that comes with JDK that can compile or turn java 
 * JVM -> Java Virtual Machine, is a computing machine that is able to run java programs. Its an intermidiary between java byte code .class and hardware/operating system.
 * IDE -> Integrated Developement Environment, is a software that computer programmers use for software developement. IDE provides code editors, debugger, compiler, version control, extension
 automation tools. Popular IDE for Java is IntelliJ.
-* byte code -> .class source code file that is executable by the java virtual machine
+* byte code -> .class source code file that is executable by the java virtual machine, is like a connection between high level programming language code and computer
 * java source code -> .java code that is written by the programmer and can be compiled by javac compiler
 * Chocolatey -> CLI tool that help to install different packages and softwares 
 * PowerShell -> CLI program or tool that is used to interact with the computer through text-based commands. You can perform various tasks and actions, automate tasks and scripts and manage
@@ -30,7 +30,7 @@ system configuration.
 Structure of Java Project:
 * src -> folder that all our source code of java is saved.
 * out -> folder where java files are compiled into byte code .class files, they are saved in this folder after compilation
-* class -> java file
+* class -> java file that is executable by JVM
 * external libraries folder -> refers to the directory where IDE manages and stores extarnal dependences (JAR files) used by the java project.
 * JAR file -> Jave ARchive is a compressed file that is used to package Java classes and associated resourses (files, images, sounds, configurations) into 1 file.
 * .idea folder -> is a directory that is generated automatically by the IDE this folder stores configuration and setting and metadata.
@@ -49,7 +49,6 @@ Extra:
 * variable -> is a named storage loaction in computer and can call the memory that holds a value. It can change or not during the exectutation of the program.
 * memory address -> a unique identifier that is associated with a specific location in the memory, they are used to locate and access data in the memory
 * recursion -> a method in programming where the function calls itself in order to solve a problem, instead of iteration.
-* 
 
 
 

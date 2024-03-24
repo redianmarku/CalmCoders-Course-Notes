@@ -7,3 +7,5 @@
 -CPU Registers -> are some high speed memory locations in the CPU of the computer that is used to store temporary data while CPU is manipulating instructions.
 -Buses -> communication system that transfers data between components of the computer.
 -RAM -> Random Access Memory, is a type of computer memory that serves as a temporary storage of the data that are used by CPU to run the instructions of a program and keep the program running.
+
+-byte-> is a unit of the digital memory that computers use, 1 bite = 8 bit and 1 bit is a 1 or 0 in the computer memory 
