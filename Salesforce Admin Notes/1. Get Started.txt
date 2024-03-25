@@ -1,0 +1,40 @@
+Salesforce is a cloud-based Customer Relationship Management platform (CRM) that helps companies manage their sales, marketing, customer service and other business 
+functions. 
+
+*Some features:     
+    -Sales Cloud: Help business to maanges sales processes, track leads, opportunities and manage customer intercetions.
+    -Service Cloud: Provides customer service by providing managing for customer inquiries, complaints, support ticket through channels like email, social media and live chat.
+    -Marketing Cloud: Help to create and manage marketing compains accross multiple channels like social media, email, mobile and advertising.
+    -Commerce Cloud: Provides service for creating shopping expreience
+    -Community Cloud: Help to create online communities that where organizers, customers, partners, employees can collaborate.
+    -Analytics Cloud: Provides provices advanced analytics and data visualisation that helps businesses to get insights and make decisions.
+    -
+
+- - - - - - - - - - - - - - - - - - - - - - 
+
+*Trailhead is a online learning platform built by salesforce that provides tutorials, modules, projects that help individuals learn about Salesforce products and 
+also develop skills in various areas such as business administration, development and marketing.
+
+*Features:
+    -Learning Paths: Guided learning paths about different and skill levels like: salesforce admin, developer, marketer.
+    -Modules and Projects: Users can access different modules and projects like salesforce products, programming languages, business processes.
+    -Hands-On Practice: Provides hands on learning experiece through challanges and exercises.
+    -Badges and Points: Uses can earn badges and points after completing challanges and exercises providing sense of achievement.
+    -Community Engagement: Provides community engagement through forums and groups where users can connect and share knowledge.
+    -Certification Preparation: Trailhead provides learning paths and exercises to prepare you before Certification exam.
+    -Trailmixes: Users can combine different learning paths, modules, projects for their specific learning goal.
+    
+
+Org -> (Organization) is a instance of salesforce that meet specifi requirements and needs of a organization or business. Each org is an environement where users 
+can access CRM and business management tools.
+
+    -Production Org: Primary environement where business operates with live data and configurations that are used by employees to manages CR and sales
+    -Sandbox Org: Are copies of production org that are used for testing, developement and training purposes.
+    -Developer Org: Is a free org that is a fully functional salesforce environement designed to test and build applicataion and solutions from developers.
+    -Developer Pro Org: Same as developer org but come with more advanced compatilibies. 
+    -Trail Org: Offers trail orgs to customer that want to test before purchasing.
+
+Trailhead Playground -> Is an org that you can use to complete challanges and try out new features and costumazations. It is like a real org where you can play 
+around without impacting production org.
+Lightening Web Component -> 
+
