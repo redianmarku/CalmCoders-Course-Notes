@@ -4,3 +4,5 @@ Java shortcuts and IDE shortcuts:
 * sout -> System.out.println("")
 * ALT + 1 -> Open/Closes side panel in IntelliJ
 * CTRL + SHIFT + f10 -> run main function in Java IntelliJ
+* ALT + SHIFT -> select multiple times using mouse and this shortcut
+

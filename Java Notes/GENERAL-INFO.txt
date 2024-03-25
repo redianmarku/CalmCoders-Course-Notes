@@ -8,4 +8,10 @@
 -Buses -> communication system that transfers data between components of the computer.
 -RAM -> Random Access Memory, is a type of computer memory that serves as a temporary storage of the data that are used by CPU to run the instructions of a program and keep the program running.
 
+-In computer science counting starts from 0 because it has to do with the way how computer save data in the memory adresses and usually they are index from 0, but this also have to do with
+historical reason and mathematical reason. All programming languages start indexing from 0 and not from 1 this started as from the first programming languages like C or C++ which they
+usually use pointers to index values or datas and it makes it easier to interact.
+
+
 -byte-> is a unit of the digital memory that computers use, 1 bite = 8 bit and 1 bit is a 1 or 0 in the computer memory 
+-console -> text based interface that can interact with the computer system, you can input commands and view out put in text-based format

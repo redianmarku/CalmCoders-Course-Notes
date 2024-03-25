@@ -49,6 +49,8 @@ Extra:
 * variable -> is a named storage loaction in computer and can call the memory that holds a value. It can change or not during the exectutation of the program.
 * memory address -> a unique identifier that is associated with a specific location in the memory, they are used to locate and access data in the memory
 * recursion -> a method in programming where the function calls itself in order to solve a problem, instead of iteration.
+* local variable -> variables that are declared inside a method, constructor or block of code and have limited scope of usage.
+
 
 
 

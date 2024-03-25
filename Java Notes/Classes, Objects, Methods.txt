@@ -8,11 +8,13 @@ Java Keywords:
     * void -> used to indicate that a method is not going to return anything or any value
     * new -> used to instanciate a new object in the class, allocates memory for that object and returns reference of the object 
     * import -> used to make classes and interfaces available in the code without need to reference the full qualified name.
+    * var -> used to declare local variables without specifying the data type. Var works only with variables that we initialized and is used to reduce boilerplate code.
+    * return -> is a keyword that is used to end the method and return a value if the method returns other then void method 
 
 
 Java Main Stucture:
     Every time we run a java code JVM looks for the main method in our code. The main method has always the same name and it is reserved by the langugae 
-    The method is always public and static and it takes as parameter an array of strings called args. Args are the text argumets that we put after the run command
+    The method is always public and static and it takes as parameter an array of strings called args. Args are the text arguments that we put after the run command
     in the console, so every argument that we pass while runing java code in the console will be saved on that array.
 
 
@@ -30,7 +32,8 @@ Datatypes and variables:
         -stores the reference address of a object created from a class
         Ex. String -> is a class in java used to store a sequence of characters
     3. Array reference variables
-        -stores memory address of an array object in java 
+        -stores memory address of an array object in java
+        -Array -> is a data structure or a collection of other datatypes, that allow us to store multiple values of the same datatype in a variable
     4. Interface reference variables 
 
     5. Enum reference variables
@@ -51,6 +54,29 @@ Java CLASS (Object Oriented):
 
     -Methods:
         Are blocks of code that perform specific tasks or operations within the class. They can have name, return type, parameters, access modifier. There are static methods, instance
-        methods, overloading methods.
+        methods, overloading methods. 
+        
+        -Methods can return or not return value.
+        -Methods can get input and can return output.
+        -Methods names usually hava verbs.
+        -Methods names start with lower case.
+        -After method name is always followed by paranthesis
+        -Curl brackets tell where method starts and ends {}
+        -Inside the code block or {} we put statements
+        
+        -Method example with no input:
+
+            public void sayHello(){
+                System.out.print("Hello");
+            }
+
+        -Method example with input:
+
+            public void saySomething(String message){
+                System.out.print(message);
+            }
+
+        
+
 
 
