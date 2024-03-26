@@ -8,7 +8,7 @@ functions.
     -Commerce Cloud: Provides service for creating shopping expreience
     -Community Cloud: Help to create online communities that where organizers, customers, partners, employees can collaborate.
     -Analytics Cloud: Provides provices advanced analytics and data visualisation that helps businesses to get insights and make decisions.
-    -
+    
 
 - - - - - - - - - - - - - - - - - - - - - - 
 
@@ -36,5 +36,12 @@ can access CRM and business management tools.
 
 Trailhead Playground -> Is an org that you can use to complete challanges and try out new features and costumazations. It is like a real org where you can play 
 around without impacting production org.
-Lightening Web Component -> 
+
+Lightening Web Component -> Is modern UI Framework used to build web applications and custom interfaces in Salesforce platform.
+
+
+App -> Is a collection or grouping of related functionalities in one interface. Usually is built by tabs.
+
+Package -> Is a set of pre-created configurations and developments.
+
 

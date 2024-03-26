@@ -39,6 +39,9 @@ Datatypes and variables:
     5. Enum reference variables
     6. Generic reference variables
 
+    -varargs -> allows to input multiple values of same data type as a parameter in methods, and it returns a array of values. If we have multiple paramaters the varargs should 
+    always be the last paramater
+
 
 
 Java CLASS (Object Oriented):
@@ -63,6 +66,12 @@ Java CLASS (Object Oriented):
         -After method name is always followed by paranthesis
         -Curl brackets tell where method starts and ends {}
         -Inside the code block or {} we put statements
+
+        -MAIN METHOD is the first method that runs when we run a java application, JVM looks for this method first:
+
+            public static void main(String[] args){
+                
+            }
         
         -Method example with no input:
 
@@ -75,6 +84,21 @@ Java CLASS (Object Oriented):
             public void saySomething(String message){
                 System.out.print(message);
             }
+
+        -Method with vararg as parameter:
+
+            public int getNum(int... nums){
+                return nums[1];
+            }
+
+
+        -STATIC METHOD:
+            Statis methods are methods that can be called directy from class without needing to create an instance of the class. These methods belogs to this class
+
+
+        
+
+        
 
         
 

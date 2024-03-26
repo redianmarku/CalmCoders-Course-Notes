@@ -15,3 +15,5 @@ usually use pointers to index values or datas and it makes it easier to interact
 
 -byte-> is a unit of the digital memory that computers use, 1 bite = 8 bit and 1 bit is a 1 or 0 in the computer memory 
 -console -> text based interface that can interact with the computer system, you can input commands and view out put in text-based format
+
+-application -> 
