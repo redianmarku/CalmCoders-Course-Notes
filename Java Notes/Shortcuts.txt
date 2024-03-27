@@ -5,4 +5,6 @@ Java shortcuts and IDE shortcuts:
 * ALT + 1 -> Open/Closes side panel in IntelliJ
 * CTRL + SHIFT + f10 -> run main function in Java IntelliJ
 * ALT + SHIFT -> select multiple times using mouse and this shortcut
+* CTRL + / -> Comment some code 
+* CTRL + O -> Generate Override methods 
 

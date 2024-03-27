@@ -10,9 +10,11 @@ Java Keywords:
     * import -> used to make classes and interfaces available in the code without need to reference the full qualified name.
     * var -> used to declare local variables without specifying the data type. Var works only with variables that we initialized and is used to reduce boilerplate code.
     * return -> is a keyword that is used to end the method and return a value if the method returns other then void method 
+    * super -> refers the class in the hiearchy that we are extending 
 
 
-Java Main Stucture:
+
+Java Main Method:
     Every time we run a java code JVM looks for the main method in our code. The main method has always the same name and it is reserved by the langugae 
     The method is always public and static and it takes as parameter an array of strings called args. Args are the text arguments that we put after the run command
     in the console, so every argument that we pass while runing java code in the console will be saved on that array.
@@ -40,7 +42,11 @@ Datatypes and variables:
     6. Generic reference variables
 
     -varargs -> allows to input multiple values of same data type as a parameter in methods, and it returns a array of values. If we have multiple paramaters the varargs should 
-    always be the last paramater
+    always be the last paramater. To use varargs just put 3 dots ... after var name.
+
+    -static variables -> static variables are vars that typicaly dont change and they can be called directly from class, they can be called only in static context
+
+    -static intialization -> we use keyword static with a code block static{} or create a static method for where we initialize static var.
 
 
 
@@ -94,6 +100,18 @@ Java CLASS (Object Oriented):
 
         -STATIC METHOD:
             Statis methods are methods that can be called directy from class without needing to create an instance of the class. These methods belogs to this class
+
+
+        -OBJECT SUPERCLASS:
+            Every class in Java extends a superclass called Object.
+
+            Object superclass has a method called toString(). This method returns a representation of the class in form of a string. By default this method return NameOfClass@HashCode
+
+
+
+
+
+
 
 
         

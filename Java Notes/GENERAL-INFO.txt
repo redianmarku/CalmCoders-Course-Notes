@@ -17,3 +17,5 @@ usually use pointers to index values or datas and it makes it easier to interact
 -console -> text based interface that can interact with the computer system, you can input commands and view out put in text-based format
 
 -application -> 
+
+memorie -> Memorie teresi regjistrash qe jan teresi qelizash qe ruajne informacion. Informacioni qe ruajn qelizat eshte ne forme bitesh qe krijohen nga gjurma qe len elektriciteti kur kalon ne porta logjike

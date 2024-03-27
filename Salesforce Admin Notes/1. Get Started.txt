@@ -25,7 +25,7 @@ also develop skills in various areas such as business administration, developmen
     -Trailmixes: Users can combine different learning paths, modules, projects for their specific learning goal.
     
 
-Org -> (Organization) is a instance of salesforce that meet specifi requirements and needs of a organization or business. Each org is an environement where users 
+Org -> (Organization) is a instance of salesforce that meet specific requirements and needs of a organization or business. Each org is an environement where users 
 can access CRM and business management tools.
 
     -Production Org: Primary environement where business operates with live data and configurations that are used by employees to manages CR and sales
