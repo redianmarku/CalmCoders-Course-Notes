@@ -3,6 +3,7 @@ Java Keywords:
     from outside of the package. 
     * private -> is an access modifier used to restrict visibility of a class member, field, method or nested class. Members declared as private are not accesiable from the outside
     the class. 
+    * protected -> fjale kyqe per modifikimin e aksesit te metodave, fushave dhe kostruktoreve. Ben qe anetari i klases te aksesohet vetem nga klasat e paketes se njejte.
     * class keyword -> decalares or defines a class in java
     * static -> used to declare a variable or method in the class which it only belongs to this class and not the instance of that class, we usually call it using directly from class
     * void -> used to indicate that a method is not going to return anything or any value
@@ -11,11 +12,14 @@ Java Keywords:
     * var -> used to declare local variables without specifying the data type. Var works only with variables that we initialized and is used to reduce boilerplate code.
     * return -> is a keyword that is used to end the method and return a value if the method returns other then void method 
     * super -> refers the class in the hiearchy that we are extending 
+    * package -> nje menyre organizimi dhe grupimi te clasave dhe infterface ne java per te bere me te leht organizimin e projekteve te medha
+    * this -> fjale kyq qe i referohet objektit aktual qe po krijohet 
+
 
 
 
 Java Main Method:
-    Every time we run a java code JVM looks for the main method in our code. The main method has always the same name and it is reserved by the langugae 
+    Every time we run a java code JVM looks for the main method in our code. The main method has always the same name and it is reserved by the language 
     The method is always public and static and it takes as parameter an array of strings called args. Args are the text arguments that we put after the run command
     in the console, so every argument that we pass while runing java code in the console will be saved on that array.
 
@@ -51,15 +55,43 @@ Datatypes and variables:
 
 
 Java CLASS (Object Oriented):
+    Klasa eshte sturukture me karakteristiva dhe sjellje qe sherbejn si nje planimetri ne krijimin e objektit.
+
+    Object Oriented eshte menyr programimi qe ka karakteristik 4 pikat trashgimi, inkapsulim, abstraksion dhe polimorfizem. 
+    
+    -trashgimia -> eshte koncept qe lejon nje klase te trashegoje vecori te nje klase tjeter, te zgjerohet duke marr karakteristikat e nje klase tjeter.
+    -inkapsulim -> eshte koncept qe perdoret per te fshehur dajet e anetareve (variabla, metoda) te nje klase duke mos i aksesuar drejtperdrejt por duke i manipuliar nepermjet metodave.
+    -abstraksion -> eshte koncept qe perdoret kur fshehim detajet e klases, krijohen metoda pa trup dhe implementimi i tyre behet ne klasa ta tjera.
+    -polimorfizm -> eshte koncept qe lejon perdorimin e metodes ne menyra te ndryshme duke u bazuar ne perdorimin e saj.
+
     Is a blueprint or a template of creating objects, it defines attributes (fields) and behaviors (methods) that object of the class will have. A class serves as a template
     from which objects can be created. Class contains methods, constractors and fields or attributes.Class names should be capitalized start with capital letter, cant start with number or symbols.
 
     -Fields:
-        Are variables that are declared within the class are represent data or the state of the of an object.
+        Are variables that are declared within the class are represent data or the state of the of an object. 
 
     -Constructors: 
         Is a special type of method that is used for initializing the objects of a class. Constructors have the same name as the class and they dont return anything and they
         are not void methods. They are automatically called when a new object of the class is created using 'new' keyword. We have default constructors and parameterized constructors.
+
+        Konstruktori eshte ndertuesi i nje objekti duke perdorur stukturen e klases. Konstruktori therritet automatikisht kur perdoret fjala kyqe new.
+        Cdo klase qe krijohet ne java ka nje konstruktor default pa prametra qe jepet nga java. Nese krijojme nje konstruktor ne klases, konstruktori qe jepet default, fshihet.
+
+        Kostruktoret nuk rikthejne vlere.
+
+        -Shembull Konstruktori pa parametra:
+            public Person(){
+
+            }
+
+        -Shembull konstruktori me parametra:
+            public Person(String name, String lastname){
+                this.name = name;
+                this.lastname = lastname;
+            }
+
+        
+
 
     -Methods:
         Are blocks of code that perform specific tasks or operations within the class. They can have name, return type, parameters, access modifier. There are static methods, instance
@@ -108,14 +140,19 @@ Java CLASS (Object Oriented):
             Object superclass has a method called toString(). This method returns a representation of the class in form of a string. By default this method return NameOfClass@HashCode
 
 
+        -GETTER & SETTER:
+            Jane metoda te vecanta qe perdoren per manipulimin e variablava private ne klase qe ndihmojne per ruajtjen e inkapsulimit dhe sigurise se te dhenave.
 
 
 
 
-
-
-        
-
+MODIFIKIMI I AKSESIT:
+    Fjale kyq per modifikim aksesit:
+        -public -> cdo klase, metode, fushe eshte e aksesueshme brenda klases gjithashtu dhe ne klasat e tjera ne paketa te tjera 
+        -private -> cdo klase, metode, fushe eshte e aksesueshme vetem brenda klases 
+        -protected -> cdo klase, metode, fushe eshte e aksesueshme brenda vete klases dhe klasat e te njejtes pakete. Gjithashtu mund te aksesohen dhe ne klasat e zgjeruara te paketave
+        te ndryshme duke perdorur klasen prind.
+        -package protected -> cdo klase, metode, fushe eshte e aksesueshme vetem ne klasat e se njejtes pakete.
         
 
         

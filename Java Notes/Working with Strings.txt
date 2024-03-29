@@ -1,0 +1,34 @@
+* Ndryshimi midis:
+
+    String name = "Redi";
+      dhe
+    String emri = "Redi";
+
+    Ruhen ne adresa te njejta memorie sepse kane te njejten vlere.
+
+    -  -  -  -  -  -  -
+
+    String emri = new String("Redi");
+      dhe
+    String name = new String("Redi");
+
+    Ruhen ne adresa te ndryshme memorie edhe pse kane vlera te njejta.
+
+
+* .format() -> metode per formatimin e textit ne java duke perdorur specifikues 
+
+* .toUpperCase() -> kthen texting nga shkronja te vogla ne kapitale, dhe .toLowerCase() kthen shkronjat kapitale ne te vogla.
+
+* .isEmpty() -> kontrollon nese sasia e karaktere ne string eshte 0 dhe rikthen true 
+
+* .isBlank() -> kontrollon nese sasia e karaktere ne string eshte 0 dhe nese string ka karakterin hapsire ose bosh
+
+* .replace() -> perdoret per te zevendesuar nje (karakter ose string) ne nje string ne java, mer 2 parametra: stringun e vjeter dhe string e ri qe do zevendesohet.
+
+* .strip() -> metode per te fshire hapsirat ne string, .stripIndent() 
+
+* .compareTo() -> rekthen -1 nese 2 stringje jan ndryshe, rikthen 0 nese 2 stringje jane te njejte dhe rikthen numer pozitiv nese stringu i par 
+
+
+
+    

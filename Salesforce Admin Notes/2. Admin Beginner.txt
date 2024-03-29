@@ -7,3 +7,4 @@ custom objects -> objekte qe krijohen nga ne me karakteristika unike ne lidhje m
 records -> jane rreshte te dhenash ne objekt 
 fields -> jane kolona ne objekt 
 org -> nje instance e Salesforce 
+

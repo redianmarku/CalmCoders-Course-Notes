@@ -1,0 +1,94 @@
+public -> është një modifikues aksesi që përdoret për të kontrolluar dukshmerinë ose qasjen e klasave, fushave, metodave dhe konstruktoreve. Fjala kyçe public mund të bëjë klasat të qasshme nga jashtë paketës.
+private -> është një modifikues aksesi që përdoret për të kufizuar dukshmerinë e një anëtari të klasës, fushës, metodes ose klases të brendshme. Anëtarët e deklaruar si private nuk janë të qasshëm nga jashtë klasës.
+fjala kyçe class -> deklaron ose definon një klasë në Java
+static -> përdoret për të deklaruar një variabël ose metodë në klasë që i përket vetëm kësaj klase dhe jo instancës së asaj klase, zakonisht e thirrasim drejtpërdrejt nga klasa
+void -> përdoret për të treguar se një metodë nuk do të kthejë asgjë ose ndonjë vlerë
+new -> përdoret për të instancuar një objekt të ri në klasë, alokon memorie për atë objekt dhe kthen referencën e objektit
+import -> përdoret për të bërë klasat dhe ndërfaqet e disponueshme në kod pa nevojë për të referencuar emrin e plotë të klasës.
+var -> përdoret për të deklaruar variablat lokale pa specifikuar tipin e të dhënave. Var funksionon vetëm me variabla që kemi inicilizuar dhe përdoret për të reduktuar kodin boilerplate.
+return -> është një fjalë kyçe që përdoret për të mbyllur metodën dhe për të kthyer një vlerë nëse metoda kthen përveçse metodën void
+super -> i referohet klasës në hierarkinë që po zgjerojmë
+Metoda Kryesore në Java:
+Çdo herë që kemi një kod Java, JVM kërkon për metodën kryesore në kodin tonë. Metoda kryesore ka gjithmonë emrin e njëjtë dhe është e rezervuar nga gjuha.
+Metoda është gjithmonë publike dhe statike dhe merr si parametër një varg të stringjeve të quajtur args. Args janë argumentet e tekstit që i vendosim pas komandës së drejtuar në konsolë,
+pra çdo argument që kalohet gjatë ekzekutimit të kodit Java në konsolë do të ruhet në atë varg.
+
+Tiparet dhe Variablat:
+
+Variablat Primitive (variablat që mund të mbajnë një vlerë të thjeshtë, një vlerë mbajtëse, që nuk janë objekte dhe nuk i përkasin asnjë klase)
+-byte -> integer me 8 bitë, mund të marrë vlera: -128 deri në 127
+-short-> integer me 16 bitë, mund të marrë vlera: -32768 deri në 32767
+-int-> integer me 32 bitë, mund të marrë vlera -2^31 deri në 2^31-1
+-long-> integer me 64 bitë, -2^63 deri në 2^63-1
+-float-> numër me presje të shkurtër me 32 bitë
+-double-> numër me presje të shkurtër me 64 bitë
+-char-> karakter Unicode me 16 bitë
+-boolean-> zakonisht 1 byte, përfaqëson vlerën e vërtetë ose të rremë
+Variablat e Referencës së Objektit
+-ruajnë adresën e referencës së një objekti të krijuar nga një klasë
+Shembull: String -> është një klasë në Java e përdorur për të ruajtur një sekuencë karakteresh
+Variablat e Referencës së Vargut
+-ruajnë adresën e memorjes së një objekti të vargut në Java
+-Vargu -> është një strukturë e të dhënave ose një koleksion i llojeve të ndryshme të të dhënave, që na lejon të ruajmë vlera të shumta të të njëjtës lloj në një variabël
+Variablat e Referencës së Ndërfaqesë
+Variablat e Referencës së Enumit
+Variablat e Referencës së Generic
+-varargs -> lejon të futni vlera të shumta të të njëjtës lloj si parametër në metoda, dhe kthen një varg vlerash. Nëse kemi parametra të shumtë, varargs duhet gjithmonë të jetë parametri i fundit. Për të përdorur varargs, thjesht vendosni 3 pikat ... pas emrit të vargut.
+
+-variablat statike -> variablat statike janë variabla që zakonisht nuk ndryshojnë dhe mund të thirren drejtpërdrejt nga klasa, mund të thirren vetëm në kontekstin statik
+
+-initializimi statik -> përdorim fjalën kyçe statike me një bllok kodi static{} ose krijoni një metodë statike ku inicializojmë variblat statike.
+
+Klasa Java (Bazuar në Objekte):
+Është një plan ose një shabllon për krijimin e objekteve, ajo definon atributet (fushat) dhe sjelljet (metodat) që objekti i klases do të ketë. Një klasë shërben si një shabllon
+nga i cili mund të krijohen objekte. Klasa përmban metoda, konstruktorë dhe fusha ose atribute. Emrat e klasave duhet të shkruhen me shkronjë të madhe, të fillojnë me një shkronjë të madhe, nuk mund të fillojnë me një numër ose simbole.
+
+-Fushat:
+Janë variablat që deklarohen brenda klasës dhe paraqesin të dhënat ose gjendjen e një objekti.
+
+-Konstruktorët:
+Është një lloj special i metode që përdoret për të inicializuar objektet e një klase. Konstruktorët kanë të njëjtin emër si klasa dhe ata nuk kthejnë asgjë dhe nuk janë metoda void. Ata thirren automatikisht kur një objekt i ri i klases krijohet duke përdorur fjalën 'new'. Kemi konstruktorë të parazgjedhur dhe konstruktorë me parametra.
+
+-Metodat:
+Janë blloqe kodi që kryejnë detyra specifike ose operacione brenda klases. Ata mund të kenë emër, tip kthimi, parametra, modifikues aksesi. Ka metoda statike, metoda instancë, metodat e shtresimit.
+
+-Metodat mund të kthejnë ose të mos kthejnë vlerë.
+-Metodat mund të marrin hyrje dhe mund të kthejnë dalje.
+-Emrat e metodave zakonisht kanë veprime.
+-Emrat e metodave fillon gjithmonë me një shkronjë të vogël.
+-Pas emrit të metodës gjithmonë vijon paranteza
+-Gjokset e zorrëve tregojnë ku fillon dhe përfundon metoda {}
+-Brenda bllokut të kodit ose {} vendosim deklaratat
+
+-METODA KRYESORE është metoda e parë që ekzekutohet kur kemi një aplikacion Java, JVM kërkon këtë metodë të parë:
+
+    public static void main(String[] args){
+        
+    }
+
+-Shembulli i një metode pa hyrje:
+
+    public void sayHello(){
+        System.out.print("Hello");
+    }
+
+-Shembulli i një metode me hyrje:
+
+    public void saySomething(String message){
+        System.out.print(message);
+    }
+
+-Metoda me vararg si parametër:
+
+    public int getNum(int... nums){
+        return nums[1];
+    }
+
+-METODA STATIKE:
+    Metodat statike janë metoda që mund të thirren drejtpërdrejt nga klasa pa nevojë për të krijuar një instancë të klasës. Këto metoda i përkasin kësaj klase
+
+-SUPERKLASA E OBJEKTIT:
+    Çdo klasë në Java zgjeron një superklasë të quajtur Object.
+
+    Superklasa e objektit ka një metodë të quajtur toString(). Kjo metodë kthen një përfaqësim të klasës në formë vargu. Në mënyrë parazgjedhëse, kjo metodë kthen EmriiKlasës@KodiHashCode.
+
