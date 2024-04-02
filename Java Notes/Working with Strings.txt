@@ -29,6 +29,11 @@
 
 * .compareTo() -> rekthen -1 nese 2 stringje jan ndryshe, rikthen 0 nese 2 stringje jane te njejte dhe rikthen numer pozitiv nese stringu i par 
 
+* .charAt() -> rikthen nje karakter specifik ne nje string duke vendosur numrin e indeksit si parameter 
 
+* .contains() -> rikthen true ose false nese nje string permban nje fjale specifike qe i japim si parameter
 
-    
+* .concat() -> metode stringu e cila mer si parameter nje string tjeter dhe i bashkon
+
+* StringBuilder -> klase per manipulimin e stringjeve
+
