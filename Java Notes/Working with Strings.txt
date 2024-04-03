@@ -37,3 +37,14 @@
 
 * StringBuilder -> klase per manipulimin e stringjeve
 
+* .length() -> rikthen sasine e karaktereve te nje stringu 
+
+* .substring() -> merr nje nen string nga nje string, mund te marr 2 parametra indeksin e fillimit te string dhe te mbarimit te stringut 
+
+* .indexOf() -> rikthen indeksin se ku fillon nje string, merr parameter nje string ose numer (numri eshte unicode i nje karakteri)
+
+* .split() -> perdoret per te ndare nje string sipas nje regular expression qe jepet si parameter dhe rikthen list stringjesh
+
+* .endsWith() .startWith() -> kontrollojne nese nje string fillon ose mbaron me nje string specifik qe japim si parameter, rikthen boolean
+
+* .contentEquals() -> Krahason permbajten e dy stringjeve, mund te krahasoje edhe StringBuffer me var stringu.

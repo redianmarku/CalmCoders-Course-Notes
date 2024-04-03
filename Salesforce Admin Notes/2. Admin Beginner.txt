@@ -1,10 +1,27 @@
-app -> An app in Salesforce is a set of objects, fields, and other functionality that supports a business process
+*app -> An app in Salesforce is a set of objects, fields, and other functionality that supports a business process
 
-objektet-> objektet jane tabela ne databasen e salesforce te cilat ruajne informacione 
+*objektet-> objektet jane tabela ne databasen e salesforce te cilat ruajne informacione 
 
-standard objects -> objekte qe vijne te ndertuara nga salesforce
-custom objects -> objekte qe krijohen nga ne me karakteristika unike ne lidhje me org qe po punojme
-records -> jane rreshte te dhenash ne objekt 
-fields -> jane kolona ne objekt 
-org -> nje instance e Salesforce 
+*standard objects -> objekte qe vijne te ndertuara nga salesforce
+*custom objects -> objekte qe krijohen nga ne me karakteristika unike ne lidhje me org qe po punojme
+*records -> jane rreshte te dhenash ne objekt 
+*fields -> jane kolona ne objekt 
+*org -> nje instance e Salesforce 
+*instanca -> dhenje jet a nje mjedisi te ri pune ne salesforce me te gjitha funksionalitet dhe sherbimet qe ofron
+*multitenancy -> aftesia per te shperndare te gjitha sherbimet  qe ofron nje platforme ose arkitekture ne instanca tek te gjithe klientet me shpejtesi dhe funksionalitet te njete optimizuar
+dhe me siguri te dhenash per secilin ku keto te dhena jane te pavarura nga njera instance ne tjetren.
+*metadata -> jane te dhena rreth te dhenave, psh. nje objekt ka disa te dhena ku ne mund te ruajme te dhena.
+*API -> (application programming interface) eshte nje nderfaqe e cila lejon lidhjen e copezave ne software ku mund te kembehet informacioni.
+*Setup -> nderfaqe ne salesforce ku adminet mund te modifikojne konfigurojne aspektet te ndryshme te orgut.
+*object manager -> vendi ku ne mund te konfigurojme dhe menagjojme objekte standarte ose custom.
+*setup menu -> nje menu me links te shpejta qe ndihmojne te bejme menagjim/modifikim ne salesforce setup page.
+*Setup Menu Category:
+    -Administration menu: Vendi ku menagjon perdoruesit, te dhenat dhe emailet.
+    -Platform Tools: Kategoria ku behen konfigurimet me te shumta ne platform, si modelimi i te dhenave, aplikacioneve, nderfaqeve dhe funksionaliteteve.
+    -Settings: Vendi ku menagjohen informacionet e orgut dhe siguria.
+*AppExchange -> Esht dyqani ku mund te instalohen aplikacione dhe zgjidhje me ose pa pagese.
+
+
+
+
 
