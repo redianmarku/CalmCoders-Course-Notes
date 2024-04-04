@@ -1,7 +1,17 @@
 Salesforce is a cloud-based Customer Relationship Management platform (CRM) that helps companies manage their sales, marketing, customer service and other business 
 functions. 
 
-*Some features:     
+Cloud Based -> Platforma ndodhet ne cloud dmth eshte e aksesueshme jo vetem nga nje person por nga disa kliente ne te njejtn kohe.
+Ndryshimi midis cloud dhe local -> cloud mund te aksesohet nje ose me shum kliente me ip te ndryshme, ndersa local aksesohet nga nje klient dhe ip esht gjithmon e njejte.
+Salesforce -> Platform per menagjimin e mardhenies me klientin.
+Platforma -> Te gjitha sherbimet qe ofron nje kompani qe aksesohen nga nje vend.
+Lead -> Eshte nje klient potencial qe eshte interesuar rreth nje produkti qe ofron por akoma nuk eshte bere bleres.
+Compain -> Fushate
+Org -> Eshte nje mjedis pune ne salesforce
+
+
+
+*Some features (funksionalitete):     
     -Sales Cloud: Help business to manages sales processes, track leads, opportunities and manage customer intercetions.
     -Service Cloud: Provides customer service by providing managing for customer inquiries, complaints, support ticket through channels like email, social media and live chat.
     -Marketing Cloud: Help to create and manage marketing compains accross multiple channels like social media, email, mobile and advertising.
