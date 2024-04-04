@@ -9,8 +9,8 @@ rekord -> strukture qe permban te dhena sipas skices se objektit perkates
 rekord -> strukture e perbere nga teresia e fushava qe ka nje rresht, te ndertuara sipas skices se objektit 
 
 
-*standard objects -> objekte qe vijne te ndertuara nga salesforce
-*custom objects -> objekte qe krijohen nga ne me karakteristika unike ne lidhje me org qe po punojme
+*standard objects -> objekte qe vijne te ndertuara dhe jane te perfshira nga salesforce (Account, Leads, Opportunity)
+*custom objects -> objekte qe krijohen nga ne per te ruajtur informacione specifike per kompanine qe punojme
 *records -> jane rreshte te dhenash ne objekt 
 *fields -> jane kolona ne objekt 
 *org -> nje instance e Salesforce 
@@ -27,7 +27,7 @@ dhe me siguri te dhenash per secilin ku keto te dhena jane te pavarura nga njera
     -Platform Tools: Kategoria ku behen konfigurimet me te shumta ne platform, si modelimi i te dhenave, aplikacioneve, nderfaqeve dhe funksionaliteteve.
     -Settings: Vendi ku menagjohen informacionet e orgut dhe siguria.
 *AppExchange -> Esht dyqani ku mund te instalohen aplikacione dhe zgjidhje me ose pa pagese.
-
+*
 
 
 
