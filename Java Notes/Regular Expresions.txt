@@ -1,9 +1,10 @@
 Regular expression -> Nje sekuence karakteresh qe sherben per kerkim dhe manipulim ne string.
 
-.match() -> metode qe kontrollon nese stringu esht i njejte me stringun ne parameter
+.match() -> metode qe kontrollon nese stringu esht i njejte me stringun ne parameter, rikthen true ose false
 [] -> Mund te vendosim nje kusht per shprehjen, kur kemi shkroja njera pas tjeres = me operatorin OR 
 - -> shtrirje e nje shkronje psh a-d nga shkronja a deri te d 
 ^ -> Not operator 
+. -> te gjithe karakteret
 \w -> chars, numbers, symbols (not -)
 \d -> digits or numbers 
 \s -> hapsire
@@ -12,3 +13,5 @@ Regular expression -> Nje sekuence karakteresh qe sherben per kerkim dhe manipul
 * -> 0 ose me shume 
 ? -> 0 ose vetem 1
 {3,4} -> mund te mare 3 deri ne 4 
+( ) -> grupon regular expression
+Patter.compile() -> kopilon regular expresions
