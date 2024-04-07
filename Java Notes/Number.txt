@@ -1,0 +1,34 @@
+* 0b001 -> 0b tregon se esht numer binar 
+* 0x001 -> 0x tregon se eshte numer hexadecimal
+* | -> operatori OR, kthen 1 nese te pakten nje nga bitet permban 1 (ne llogaritjen binary)
+* & -> operatori AND, kthen 1 vetem nese te dy bitet permban 1 (ne llogaritjen binary) 
+* Llogaritjet qe behen me numra int rikthejn int, nese duam rikthim me preciz vendos F mbas njerit nga numrat qe po veprojme
+* (double) -> kthen rezultatin ne double 
+* (int) -> kthen rezultatin ne int 
+* ++ dhe -- -> operatoret e rritjes dhe zbritjes, rrisin ose zbresin vleren e variablit me 1
+* Nryshimi midis: x++ dhe ++x eshte se x++ rrit me 1 vleren pasi x eshte perdorur ne nje shprehje ndersa ++x e rrit vleren
+me 1 perpara se x te perdoret ne nje shprehje.
+* ! -> NOT operator, i jep vleren e kundert variables, kthen true ne false dhe anasjelltas
+
+Math -> klase ne java me nje set metodash per kryerjen e veprimeve me numra 
+* .abs() -> rikthen vleren absolute te nje numri
+* .ciel() -> kthen numrat decimal qe afrohen ne rritje ne numrin e rradhes te plote intiger
+* .floor() -> kthen numrat decimal ne numrin e plote integer me te vogel
+* .min() -> rikthen vleren me te vogel midis dy vlerave
+* .max() -> rikthen vleren me te vogel midis dy vlerave
+* .pow() -> fuqia, mer 2 parametra numrin dhe fuqine
+* .random() -> gjeneron nje numer rastesor decimal ngga 0 tek 1 
+* .round() -> perafron nje vlere 
+* .sqrt() -> gjen rrenjen katore 
+* .PI -> numri PI, konstante 
+
+Random -> klase per gjenrim e vlerave rastesore, .nextInt(), .nextDouble(), .nextBoolean() etc, mund te mar parameter limitin bound
+SecureRandom -> klase per gjenerimin e vlerave rastesore por me e sigurte
+
+/**     */ -> Perdoret per te bere dokumetim te nje pjese kodi ne java.
+/**  @param   @return   */ -> @param tregon se cfare lloj te dhenash mer metoda si parameter dhe @return cfare kthen ajo.
+
+== -> krahason nese dy vlera jane te barabarta, rikthen true ose false 
+!= -> krahason nese dy vlera nuk jan te barabarta, rikthen true ose false 
+
+BigDecimal -> Klase per kryrjen e veprimeve precize per numra shume te medhenj decimal, instanca mer si parameter nje numer decimal ne form stringu.
