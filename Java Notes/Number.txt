@@ -31,4 +31,11 @@ SecureRandom -> klase per gjenerimin e vlerave rastesore por me e sigurte
 == -> krahason nese dy vlera jane te barabarta, rikthen true ose false 
 != -> krahason nese dy vlera nuk jan te barabarta, rikthen true ose false 
 
-BigDecimal -> Klase per kryrjen e veprimeve precize per numra shume te medhenj decimal, instanca mer si parameter nje numer decimal ne form stringu.
+* BigDecimal -> Klase per kryrjen e veprimeve precize per numra shume te medhenj decimal, instanca mer si parameter nje numer decimal ne form stringu.
+* NumberFormat -> Klase per formatimin e numrave, currency, int, double.
+
+%.2f -> percakton precezionin ne numrat decimal, sa shifra mbas presjes
+
+Intiger, Double, Float, Byte -> Klasa per te krijuar objekte per keto vlera, .valueOf() -> i jep vleren objektit 
+
+Integer.parseInt() -> kthen string ne int
