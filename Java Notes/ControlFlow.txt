@@ -1,0 +1,21 @@
+Control Flow -> rradha e ekzekutimit te instruksioneve  ne nje program
+
+Statement -> nje set instruksionesh qe perfermon nje task specifik
+                                                                                                                                                                                                                                                      
+
+*thread -> eshte nje process, procesimi i nje instance te programit 
+  
+* IF Statement:
+
+    -if(){} eshte nje lloje declarate ose kushti qe lejon ekzekutimin e nje blloku kodi nese kushti eshte i vertet
+
+    -struktura:
+
+        if(true){
+            // ekzekuto disa rreshta kodi
+        }
+
+    -else if() -> lejon kontrollimin e disa kushteve ne deklarate 
+
+    -else{} -> ekzekutohet nese asnje nga kushtet nuk ekzekutohet 
+
