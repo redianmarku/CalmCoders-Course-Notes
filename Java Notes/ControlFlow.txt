@@ -1,4 +1,4 @@
-Control Flow -> rradha e ekzekutimit te instruksioneve  ne nje program
+Control Flow -> rradha e ekzekutimit te instruksioneve ne nje program
 
 Statement -> nje set instruksionesh qe perfermon nje task specifik
                                                                                                                                                                                                                                                       
@@ -18,4 +18,35 @@ Statement -> nje set instruksionesh qe perfermon nje task specifik
     -else if() -> lejon kontrollimin e disa kushteve ne deklarate 
 
     -else{} -> ekzekutohet nese asnje nga kushtet nuk ekzekutohet 
+
+* SWITCH STATEMENT: 
+    Controll flow statement qe lejon te kontrollohet nje variabel dhe te exkzekutohet blloke kodi
+    bazuar ne ate vlere.
+
+    Switch eshte menyre alternative e if else{}
+    Switch nuk mund te mare nje vlere null
+
+    Sintaksa:
+        switch(expression){
+            case value1:
+                // Execute code
+                break;
+            
+            case value2: 
+                // Execute code
+                break;
+
+            default:
+                // Excute code if expression doesnt match to value above
+        }
+
+    
+
+*Expression -> Vlera qe do te vleresohet nga statement 
+*Case value: -> fjalekyq qe ndiqet nga vlera qe do te vleresohet nga shprehja, nese permbush kushtin kodi do te ekzekutohet 
+*null -> fjalekyqe qe nuk i jep reference ose vlere variablave 
+*break -> fjale kyqe qe ndalon ekzekutimin e kodit ne blokun e kodit qe po perdoret 
+*default -> titull ose zevendesues per case qe ekzekutohet kur asnje nga cases nuk permbush kushtin 
+*continue-> fjalekyqe qe perdoret ne loop ne menyre qe disa rreshta kodi te mos ekzekutohen 
+*loop -> bllok kodi qe mund te perseritet disa here duke u bazuar ne nje kriter
 
