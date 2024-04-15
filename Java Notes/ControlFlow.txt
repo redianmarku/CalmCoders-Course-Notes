@@ -1,11 +1,13 @@
 Control Flow -> rradha e ekzekutimit te instruksioneve ne nje program
 
-Statement -> nje set instruksionesh qe perfermon nje task specifik
+Statement -> nje set instruksionesh qe perfermon nje task specifik (gjendje)
                                                                                                                                                                                                                                                       
 
 *thread -> eshte nje process, procesimi i nje instance te programit 
   
 * IF Statement:
+
+    Strukture per te kushtezuar nje rrjedhim kodi.
 
     -if(){} eshte nje lloje declarate ose kushti qe lejon ekzekutimin e nje blloku kodi nese kushti eshte i vertet
 
@@ -76,5 +78,16 @@ Statement -> nje set instruksionesh qe perfermon nje task specifik
 
     
 
+* FOOR LOOP 
+    - Strukture perserites te kodit qe ka nje fjalekyqe for, kllapa, inicializues, kusht, inkrementim dhe bllokun me logjiken e kodit.
+    - Sintaka:
+        for(initialization; condition; increment){
+            // Block of code 
+        }
 
-
+*ENHANCED FOOR LOOP:
+    - Strukture perserites qe ben me te lehte per te aksesuar elementet ne array ose colleksion elementesh.
+    - Sintaksa:
+        for(elemntType element : iterrableCollection){
+            // Code to be executed for each element
+        }
