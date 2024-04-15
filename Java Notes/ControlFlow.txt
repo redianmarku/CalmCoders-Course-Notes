@@ -50,3 +50,31 @@ Statement -> nje set instruksionesh qe perfermon nje task specifik
 *continue-> fjalekyqe qe perdoret ne loop ne menyre qe disa rreshta kodi te mos ekzekutohen 
 *loop -> bllok kodi qe mund te perseritet disa here duke u bazuar ne nje kriter
 
+* WHILE LOOP:
+    -Nje control flow statement qe ekzekuton nje bllok kodi disa here derisa kushti eshte i vertete.
+    -Sintaksa:
+
+        while(condition){
+            // ekzekuto rreshta kodi
+        }
+
+*ternary operator -> nje menyre me kompakte per te shprehur nje kusht llogjik
+    sintaksa:   condition ? expression1 : expression2 
+    Nuk kemi nevoj te vendosim if, ? perfaqeson then se cfare do ndodhe nese kushti eshte true ndersa : perfaqesojn else 
+
+
+* DO - WHILE:
+    -Lejon ekzekutimin e nje blloku kodi disa here derisa kushti eshte i vertete, por ky bllok kodi ekzekutohet gjithmone te pakten 1
+    here brenda do{} ne ndryshim nga while loop qe mund te ekzekutohet dhe asnjehere.
+
+    -Sintaksa:
+
+        do{
+            // kodi qe do te ekzekutohet
+            // do te ekzekutohet gjithmon te pakten 1 here
+        }while(condition);
+
+    
+
+
+
