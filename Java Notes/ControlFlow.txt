@@ -91,3 +91,10 @@ Statement -> nje set instruksionesh qe perfermon nje task specifik (gjendje)
         for(elemntType element : iterrableCollection){
             // Code to be executed for each element
         }
+
+
+
+* annotation -> Eshte nje etikete ose shenim qe perfaqeson metadata rreth klasave, metodave, variablave ose fushave.
+    -Annotation Standard -> @Override, @
+    -Annotation Custom -> 
+    

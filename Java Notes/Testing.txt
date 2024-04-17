@@ -1,0 +1,3 @@
+* maven -> tool per te ndertuar dhe installuar librari te ndryshme ne projektet java, perdoret perderisa jo te gjithe programuesit perdorit te njetin IDE
+* Framework -> nje set librarish, tools, komponentash qe ofrojne nje menyre te strukturuar per te ndertuar nje aplikacion.
+* UntiTesting -> nje framework ne java e perdorur per testim, i jepet vlere dhe krahason me vleren qe pritet kodi te riktheje 
