@@ -95,6 +95,6 @@ Statement -> nje set instruksionesh qe perfermon nje task specifik (gjendje)
 
 
 * annotation -> Eshte nje etikete ose shenim qe perfaqeson metadata rreth klasave, metodave, variablave ose fushave.
-    -Annotation Standard -> @Override, @
+    -Annotation Standard -> @Override, @Test, 
     -Annotation Custom -> 
     

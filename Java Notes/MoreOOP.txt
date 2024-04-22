@@ -1,1 +1,2 @@
-enums -> 
+enums -> eshte nje strukture tipi te dhenash qe perdoret per te definuar nje koleksion konstantesh 
+definim -> percaktimi i nje termi, koncepti ose ideje
