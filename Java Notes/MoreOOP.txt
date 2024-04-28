@@ -1,2 +1,41 @@
-enums -> eshte nje strukture tipi te dhenash qe perdoret per te definuar nje koleksion konstantesh 
-definim -> percaktimi i nje termi, koncepti ose ideje
+*enums -> eshte nje strukture tipi te dhenash qe perdoret per te definuar nje koleksion konstantesh 
+    -sintaksa: 
+        public enum Options{
+            OPTION1,
+            OPTION2,
+            OPTION3
+        }
+
+* interface -> strukture qe ka nje akses modifier, fjalen kyqe interface, emrin e interface dhe trupin. Ne kete
+    lloj strukture mund te deklarohen variabla dhe metoda konstante, medota normale. 
+
+    -Ne interface nuk behet implementimi.
+    -Klases te cilen ben implementimin e interface duhet qe te implementoje te gjitha metodat qe ka kjo interface.
+    -Fjala kyqe implements ben implementimin e interface nga nje klase tjeter
+    -interface mund te kete implementim default duke perdorur fjalen kyqe default
+    
+    -Sintaksa:
+        public interface Employ{
+            int salary();
+            static String company = "CalmCoders";
+            default int salary1(){
+                // some default code...
+            }
+        }
+
+* abstract class -> strukture e njete si klasa por qe ne kete lloj strukture mund te deklarohen dhe metoda abstrakte qe nuk kane 
+ndonje implementim por mund te zgjerohen nga nje klase tjeter.
+
+    -Sintaksa: 
+        public abstract Employ{
+            private String name;
+
+            public abstract int getSelary();
+
+            public int getAge(){
+                // Code implementation
+            }
+        }
+
+* super -> fjale kyqe qe sherben per tu referuar klases prind tek klasa te cilen po zgjerojme.
+        - super mund te therritet vetem brenda trupit te konstructorit ose metodes.
