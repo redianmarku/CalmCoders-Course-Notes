@@ -38,4 +38,4 @@ ndonje implementim por mund te zgjerohen nga nje klase tjeter.
         }
 
 * super -> fjale kyqe qe sherben per tu referuar klases prind tek klasa te cilen po zgjerojme.
-        - super mund te therritet vetem brenda trupit te konstructorit ose metodes.
+        - super mund te therritet vetem brenda trupit te konstruktorit ose metodes.
