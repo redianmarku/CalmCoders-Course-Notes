@@ -7,7 +7,7 @@
         }
 
 * interface -> strukture qe ka nje akses modifier, fjalen kyqe interface, emrin e interface dhe trupin. Ne kete
-    lloj strukture mund te deklarohen variabla dhe metoda konstante, medota normale. 
+    lloj strukture mund te deklarohen variabla dhe metoda konstante, medota normale por nuk mund te implementohen.
 
     -Ne interface nuk behet implementimi.
     -Klases te cilen ben implementimin e interface duhet qe te implementoje te gjitha metodat qe ka kjo interface.
@@ -39,3 +39,4 @@ ndonje implementim por mund te zgjerohen nga nje klase tjeter.
 
 * super -> fjale kyqe qe sherben per tu referuar klases prind tek klasa te cilen po zgjerojme.
         - super mund te therritet vetem brenda trupit te konstruktorit ose metodes.
+
