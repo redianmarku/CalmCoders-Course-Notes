@@ -24,7 +24,7 @@
         }
 
 * abstract class -> strukture e njete si klasa por qe ne kete lloj strukture mund te deklarohen dhe metoda abstrakte qe nuk kane 
-ndonje implementim por mund te zgjerohen nga nje klase tjeter.
+ndonje implementim por mund te zgjerohen nga nje klase tjeter qe eshte trasheguar.
 
     -Sintaksa: 
         public abstract Employ{
@@ -39,4 +39,20 @@ ndonje implementim por mund te zgjerohen nga nje klase tjeter.
 
 * super -> fjale kyqe qe sherben per tu referuar klases prind tek klasa te cilen po zgjerojme.
         - super mund te therritet vetem brenda trupit te konstruktorit ose metodes.
+
+*Nested Classes -> Jane klasa qe vendosen brenda klasave, perdoren per perfaqesuar struktura komplekse dhe krijuar marredhenie me te 
+ngushta midis objekteve.
+
+    -Klasa statike nested
+    -Klasa inner nested
+    -Klasa lokale nested
+
+* Rekord -> Strukture per mbajtjen dhe menagjimin e te dhenave, e njejte si klasa por vjen dhe me metoda te gatshme si getter&setter, hashCode dhe toString.
+    - Perdoret fjala kyqe record per krijimin 
+    - Rekordi nuk mund te behet extend ose implement
+    - syntax: 
+
+        public record Emri(String Prameter){
+           
+        }
 
