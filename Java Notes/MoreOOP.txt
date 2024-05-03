@@ -46,6 +46,7 @@ ngushta midis objekteve.
     -Klasa statike nested
     -Klasa inner nested
     -Klasa lokale nested
+    -Anonymous Class 
 
 * Rekord -> Strukture per mbajtjen dhe menagjimin e te dhenave, e njejte si klasa por vjen dhe me metoda te gatshme si getter&setter, hashCode dhe toString.
     - Perdoret fjala kyqe record per krijimin 
@@ -55,4 +56,18 @@ ngushta midis objekteve.
         public record Emri(String Prameter){
            
         }
+
+
+* Lambda -> Nje menyre e shkurter per te shkruar funksione anonime ne java, funksione pa emer qe mund te marin parametra dhe rikthejne dicka.
+        -sintaksa:
+            (parametra) -> {shprehje/bllok kodi}
+
+
+* composition -> Menyre per te trasheguar anetaret nga nje klase ne nje klase tjeter pa bere extend por duke krijuar nje fushe me data type e klases qe do te trashegojme.
+
+* instanceof -> fjale kyqe qe kontrollon nese nje objekt eshte i nje klase te caktuar ose nje klase te trasheguar.
+
+* Casting -> konvertimi i nje tipi te dhene nga nje tip ne nje tip tjeter.
+        -sintaksa:
+            Tipi_qedo_konvertohet var = (Tipi_qedo_konvertohet) vlera_me_tipi_vjeter
 

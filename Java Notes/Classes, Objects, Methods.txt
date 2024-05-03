@@ -17,7 +17,6 @@ Java Keywords:
 
 
 
-
 Java Main Method:
     Every time we run a java code JVM looks for the main method in our code. The main method has always the same name and it is reserved by the language 
     The method is always public and static and it takes as parameter an array of strings called args. Args are the text arguments that we put after the run command
