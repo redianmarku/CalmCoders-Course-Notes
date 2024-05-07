@@ -1,0 +1,2 @@
+Collection -> Struktura qe sherbejne per ruajtjen e disa objekteve.
+
