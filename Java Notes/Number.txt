@@ -38,4 +38,4 @@ SecureRandom -> klase per gjenerimin e vlerave rastesore por me e sigurte
 
 Intiger, Double, Float, Byte -> Klasa per te krijuar objekte per keto vlera, .valueOf() -> i jep vleren objektit 
 
-Integer.parseInt() -> kthen string ne int
+Integer.parseInt() -> ben cast, konverton string ne int
